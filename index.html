@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <p>
+        <div id="div1" class="d1">This is Div 1</div>
+        <div id="div2" class="d2">This is Div 2</div>
+        <input type="button" value="change color" onclick="changeColor()">
+        <input type="button" value="change text" onclick="changeText()"><br>
+        <input type="button" value="change" onclick="dochange()">
+        <input type="button" value="confirm" onclick="confirmation()" id="confirm"></p>
+        <p>
+        <canvas id="cv1"></canvas><br>
+        <!-- <canvas id="cv2"></canvas> -->
+        <input type="button" value="Do Lime" onclick="doLime()">
+        <input type="button" value="Do Red" onclick="doRed()">
+        <input type="button" value="Clear Blue" onclick="clearBlue()">
+        </p>
+    
+        <p>
+            <canvas id="canv"></canvas><br>
+            <input type="button" value="Do Purple" onclick="doPurple()">
+            <input type="color" value="#FF0000" id="change" onchange="chooseColor()">
+            <input type="range" min="10" max="150" id="range" value="10" oninput="range()">
+        </p>
+<script src="js/script.js"></script>
+</body>
+</html>
